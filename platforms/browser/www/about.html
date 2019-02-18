@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <div class="toolbar tabbar-labels toolbar-bottom-md">
+        <div class="toolbar-inner">
+          <a href="#view-home" class="tab-link tab-link-active">
+            <i class="icon f7-icons ios-only">home</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i>
+            <i class="icon material-icons md-only">home</i>
+            <span class="tabbar-label">Event</span>
+          </a>
+          <a href="#view-catalog" class="tab-link">
+            <i class="icon f7-icons ios-only">list</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
+            <i class="icon material-icons md-only">view_list</i>
+            <span class="tabbar-label">The Program</span>
+          </a>
+          
+          <a href="" class="tab-link">
+            <i class="icon f7-icons ios-only">settings</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
+            <i class="icon material-icons md-only">settings</i>
+            <span class="tabbar-label">The Roses</span>
+          </a>
+          
+          <a href="#view-settings" class="tab-link">
+            <i class="icon f7-icons ios-only">settings</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
+            <i class="icon material-icons md-only">settings</i>
+            <span class="tabbar-label">The Candles</span>
+          </a>
+
+          <a href="#view-settings" class="tab-link">
+            <i class="icon f7-icons ios-only">settings</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
+            <i class="icon material-icons md-only">settings</i>
+            <span class="tabbar-label">Location</span>
+
+            <a href="#view-settings" class="tab-link">
+            <i class="icon f7-icons ios-only">settings</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
+            <i class="icon material-icons md-only">settings</i>
+            <span class="tabbar-label">Menu</span>
+          </a>
+        </div>
+      </div>
+
+      <div id="view-home" class="view view-main tab tab-active">
+        <!-- Page, data-name contains page name which can be used in page callbacks -->
+        <div class="page" data-name="home">
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="left">
+                <a href="#" class="link icon-only panel-open" data-panel="left">
+                  <i class="icon f7-icons ios-only">menu</i>
+                  <i class="icon material-icons md-only">menu</i>
+                </a>
+              </div>
+              <div class="title sliding">Home</div>
+              <div class="right">
+                <a href="#" class="link icon-only panel-open" data-panel="right">
+                  <i class="icon f7-icons ios-only">menu</i>
+                  <i class="icon material-icons md-only">menu</i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div id="view-catalog" class="view tab">
+          <!-- Catalog page will be loaded here dynamically from /catalog/ route -->
+          </div>
+
+      <div id="view-home" class="view view-main tab tab-active">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+               <div class="left">
+                  <a class="link back">
+                    <i class="icon icon-back"></i>
+                    <span class="ios-only">Back</span>
+                  </a>
+              </div>
+              <div class="title">About</div>
+            </div>
+          </div>
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            <p>Page content goes here</p>
+            <!-- Link to another page -->
+            <a href="/home/">Awesome stuff</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>

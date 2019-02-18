@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#8B0000">
+    <!-- Your app title -->
+    <title>Happy 18th Birthday!</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+
+
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+          <!-- Views/Tabs container -->
+    <div class="views tabs ios-edges">
+      <!-- Tabbar for switching views-tabs -->
+      <div class="toolbar tabbar-labels toolbar-bottom-md color-theme-pink">
+        <div class="toolbar-inner color-theme-pink">
+           <a href="#view-home" class="tab-link tab-link-active ">
+            <i class="icon f7-icons ios-only">home</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i>
+            <i class="icon material-icons md-only">home</i>
+            <span class="tabbar-label">Event</span>
+          </a>
+          <a href="#view-program" class="tab-link">
+            <i class="icon f7-icons ios-only">list</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
+            <i class="icon material-icons md-only">view_list</i>
+            <span class="tabbar-label">Program</span>
+          </a>
+          
+          <a href="#view-roses" class="tab-link">
+            <i class="icon f7-icons ios-only">filter_vintage</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">filter_vintage_fill</i>
+            <i class="icon material-icons md-only">filter_vintage</i>
+            <span class="tabbar-label">Roses</span>
+          </a>
+          
+          <a href="#view-candles" class="tab-link">
+            <i class="icon f7-icons ios-only">brightness_high</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">brightness_high_fill</i>
+            <i class="icon material-icons md-only">brightness_high</i>
+            <span class="tabbar-label">Candles</span>
+          </a>
+
+          <a href="#view-location" class="tab-link">
+            <i class="icon f7-icons ios-only">location_on</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">location_on_fill</i>
+            <i class="icon material-icons md-only">location_on</i>
+            <span class="tabbar-label">Location</span>
+
+            <a href="#view-menu" class="tab-link">
+            <i class="icon f7-icons ios-only">fastfood</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">fastfood_fill</i>
+            <i class="icon material-icons md-only">fastfood</i>
+            <span class="tabbar-label">Menu</span>
+          </a>
+        </div>
+      </div>
+      <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
+      <div id="view-home" class="view view-main tab tab-active">
+        <!-- Page, data-name contains page name which can be used in page callbacks -->
+        <div class="page color-theme-pink" data-name="home">
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              
+              <div class="title sliding">Jessica Camus's Debut</div>
+              
+            </div>
+          </div>
+
+          <!-- Scrollable page content-->
+          <div class="page-content">
+            
+              <!--<img src="https://i.pinimg.com/originals/ae/58/d0/ae58d0c22925ee3169d3704a23455d39.jpg" width = "100%"/> -->
+              <img src="https://image.freepik.com/free-vector/happy-birthday-lettering-party-design_23-2147492494.jpg?1" width ="100%" />
+              <div class="block block-strong">
+              <p>Hi guys! Everyone from my family, friends and educators are welcome to my party and thank you for being part
+              of my 18th year stay here on our beautiful Mother Earth.</p>
+              <img src="shen_yue.jpg" width = "100%" />
+
+              <div id="app">
+    <div class="panel panel-left panel-cover">
+      <div class="block">
+        <p>Male Attire</p>
+        <img src="attire_male1.jpg" width="100%"/>
+        <img src="attire_male2.jpg" width="100%"/>
+        <p><a class="panel-close" href="#">Close me</a></p>
+        <p><a class="panel-open" href="#" data-panel="right">Dress for Women</a></p>
+      </div>
+    </div>
+    <div class="panel panel-right panel-cover">
+      <div class="block">
+        <p>Female Attire</p>
+        <img src="attire_female1.jpg" width="100%"/>
+        <img src="attire_female2.jpg" width="100%"/>
+        <p><a class="panel-close" href="#">Close me</a></p>
+        <p><a class="panel-open" href="#" data-panel="left">Dress for Men</a></p>
+      </div>
+    </div>
+
+              </div>
+            <h3>What to wear:</h3>
+            <p><a class="panel-open" href="#">Dress Code for Gentlemen</a></p>
+            <p><a class="panel-open" href="#" data-panel="right">Dress Code for Ladies</a></p>
+            </div>
+
+            
+
+          </div>
+        </div>
+      </div>
+
+
+      <div id="view-program" class="view tab" >
+       <div class="page color-theme-green" data-name="home">
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              
+              <div class="title sliding">Timeline</div>
+              
+            </div>
+          </div>
+
+          <!-- Scrollable page content-->
+          <div class="page-content">
+
+                <div class="timeline timeline-sides">
+                  <div class="timeline-item">
+                    <div class="timeline-item-date">10:00 <small>AM</small></div>
+                    <div class="timeline-item-divider"></div>
+                    <div class="timeline-item-content">
+                      <div class="timeline-item-inner">Opening Ceremony</div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-item-date">10:30 <small>AM</small></div>
+                    <div class="timeline-item-divider"></div>
+                    <div class="timeline-item-content">
+                      <div class="timeline-item-inner">Welcoming of Guests</div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-item-date">11:00 <small>AM</small></div>
+                    <div class="timeline-item-divider"></div>
+                    <div class="timeline-item-content">
+                      <div class="timeline-item-inner">Congratulatory Speech for Celebrant</div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-item-date">11:30 <small>PM</small></div>
+                    <div class="timeline-item-divider"></div>
+                    <div class="timeline-item-content">
+                      <div class="timeline-item-inner">Preparation for Lunch</div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-item-date">12:00 <small>PM</small></div>
+                    <div class="timeline-item-divider"></div>
+                    <div class="timeline-item-content">
+                      <div class="timeline-item-inner">Lunch Proper</div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-item-date">1:00 <small>PM</small></div>
+                    <div class="timeline-item-divider"></div>
+                    <div class="timeline-item-content">
+                      <div class="timeline-item-inner">Post-Lunch Entertainment</div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-item-date">3:00 <small>PM</small></div>
+                    <div class="timeline-item-divider"></div>
+                    <div class="timeline-item-content">
+                      <div class="timeline-item-inner">Leisure Time - Opening of Onsen</div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-item-date">6:00 <small>PM</small></div>
+                    <div class="timeline-item-divider"></div>
+                    <div class="timeline-item-content">
+                      <div class="timeline-item-inner">Closing Remarks and After-party</div>
+                    </div>
+                  </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div id="view-roses" class="view tab">
+        <div class="page color-theme-red" data-name="home">
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              
+              <div class="title sliding">Roses</div>
+              
+            </div>
+          </div>
+
+          <!-- Scrollable page content-->
+          <div class="page-content">
+              <!--<img src="https://i.pinimg.com/originals/ae/58/d0/ae58d0c22925ee3169d3704a23455d39.jpg" width = "100%"/> -->
+              <div class="list media-list">
+  <ul>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="amer_miracle.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">1. Amer Barqawi</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rex.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">2. Rex Llanes</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="earl.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">3. Earl Vidaure</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="concon.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">4. Joshua Concon</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="jam.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">5. Juan Maligad</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="ethan.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">6. Ethan Villanueva</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="migs.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">7. Miguel Ocampo</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose1.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">8. Frankie Hinton</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose2.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">9. Miles Brock</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose3.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">10. Brendon Bradley</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose4.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">11. Augustin Weaver</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose5.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">12. John Doe</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose6.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">13. Doe John</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose7.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">14. Doe Johnny</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose8.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">15. Billie Jean</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src= "rose9.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">16. Jack Rose</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose10.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">17. Drake Blunder</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="rose11.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">18. Billie Crook</div>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="view-candles" class="view tab">
+        <div class="page color-theme-black" data-name="home">
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              
+              <div class="title sliding">Candles</div>
+              
+            </div>
+          </div>
+
+          <!-- Scrollable page content-->
+          <div class="page-content">
+              <!--<img src="https://i.pinimg.com/originals/ae/58/d0/ae58d0c22925ee3169d3704a23455d39.jpg" width = "100%"/> -->
+              <div class="list media-list">
+  <ul>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can1.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Mary Jane</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can2.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Sarah Sutherland</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can3.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Alice Venice</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can4.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Tamashi Yubi</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can5.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Jessica Park</div>
+          </div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can6.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Jisoo Bisoo</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can7.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Stacy Young</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can8.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Jenny Park</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can9.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Misaki Mei</div>
+          </div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can10.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Mikasa Sukasa</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can11.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Aoi Sora</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can12.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Jana Osana</div>
+          </div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can13.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Antoinette Marie</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can14.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Charlotte Walters</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can15.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Tracy Friedrich</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can16.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Marianne Lotte</div>
+          </div>
+        </div></a></li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can17.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Delilah Puree</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><img src="can18.jpg" width="80" height="80"/></div>
+        <div class="item-inner">
+          <div class="item-title-row">
+            <div class="item-title">Neifer Pitow</div>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="view-location" class="view tab">
+        <div class="page color-theme-orange" data-name="home">
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              
+              <div class="title sliding">Location</div>
+              
+            </div>
+          </div>
+
+          <!-- Scrollable page content-->
+          <div class="page-content">
+              <!--<img src="https://i.pinimg.com/originals/ae/58/d0/ae58d0c22925ee3169d3704a23455d39.jpg" width = "100%"/> -->
+              <div class="block block-strong">
+              <h1>My Birthday Venue</h1>
+
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Japan%2C%20%E3%80%92874-0000%20%C5%8Cita-ken%2C%20Beppu-shi%2C%20Motomachi%2C%20%EF%BC%91%EF%BC%96%E2%88%9223%2C%20%E7%AB%B9%E7%93%A6%E6%B8%A9%E6%B3%89&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/internetagentur/"></a></div><style>.mapouter{text-align:right;height:500px;width:411px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:411px;}</style><a href="https://www.google.com/search?q=crocothemes.net">Maps by Google.com</a></div>
+
+                <h3>Where: </h3>
+                <p>Japan, 〒874-0000 Ōita-ken, Beppu-shi, Motomachi, １６−23, 竹瓦温泉</p>
+                <img src="pic1.jpg" width="100%">
+                <img src="pic2.jpg" width="100%">
+                <img src="pic3.jpg" width="100%">
+                <img src="pic4.jpg" width="100%">
+
+
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- Settings View -->
+      <div id="view-menu" class="view tab">
+        <div class="page" data-name="home">
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              
+              <div class="title sliding">Menu</div>
+              
+            </div>
+          </div>
+
+          <!-- Scrollable page content-->
+          <div class="page-content">
+              <!--<img src="https://i.pinimg.com/originals/ae/58/d0/ae58d0c22925ee3169d3704a23455d39.jpg" width = "100%"/> -->
+              <div class="block block-strong">
+              <h3>
+                Event's Menu
+              </h3>
+              <div class="card demo-facebook-card">
+              <div class="card-header">
+                <div class="demo-facebook-avatar"><img src="shen_yue.jpg" width="34" height="34"/></div>
+                <div class="demo-facebook-name">Jessica Camus</div>
+                <div class="demo-facebook-date">Monday at 3:47 PM</div>
+              </div>
+              <div class="card-content"> <img src="https://preview.redd.it/7bnokxqk3ve21.jpg?width=640&crop=smart&auto=webp&s=c64b507b673c3a25d2d4865602eb90a966b997e4" width="100%"/></div>
+              <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Comment</a><a href="#" class="link">Share</a></div>
+            </div>
+
+            <div class="card demo-facebook-card">
+              <div class="card-header">
+                <div class="demo-facebook-avatar"><img src="shen_yue.jpg" width="34" height="34"/></div>
+                <div class="demo-facebook-name">Jessica Camus</div>
+                <div class="demo-facebook-date">Monday at 2:15 PM</div>
+              </div>
+              <div class="card-content card-content-padding">
+                <p>What a nice photo i took yesterday!</p><img src="https://preview.redd.it/iagnkv0lrre21.jpg?width=640&crop=smart&auto=webp&s=ce6619ed734dcbb58e3df2be5a907c1b24e1b7b7" width="100%"/>
+                <p class="likes">Likes: 112 &nbsp;&nbsp; Comments: 43</p>
+              </div>
+              <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Comment</a><a href="#" class="link">Share</a></div>
+            </div>
+
+            <div class="card demo-facebook-card">
+              <div class="card-header">
+                <div class="demo-facebook-avatar"><img src="shen_yue.jpg" width="34" height="34"/></div>
+                <div class="demo-facebook-name">Jessica Camus</div>
+                <div class="demo-facebook-date">Monday at 2:15 PM</div>
+              </div>
+              <div class="card-content card-content-padding">
+                <p>What a nice photo i took yesterday!</p><img src="https://preview.redd.it/tsi1atjsryf21.jpg?width=640&crop=smart&auto=webp&s=8827d401f8ebcf91e7282f1c24b860e3ac4c00f0" width="100%"/>
+                <p class="likes">Likes: 112 &nbsp;&nbsp; Comments: 43</p>
+              </div>
+              <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Comment</a><a href="#" class="link">Share</a></div>
+            </div>
+            <div class="card demo-facebook-card">
+              <div class="card-header">
+                <div class="demo-facebook-avatar"><img src="shen_yue.jpg" width="34" height="34"/></div>
+                <div class="demo-facebook-name">Jessica Camus</div>
+                <div class="demo-facebook-date">Monday at 2:15 PM</div>
+              </div>
+              <div class="card-content card-content-padding">
+                <p>What a nice photo i took yesterday!</p><img src="https://preview.redd.it/685h2if5sve21.png?width=640&crop=smart&auto=webp&s=29730a3046fc3cd46f912547be6944ad464d8a3b" width="100%"/>
+                <p class="likes">Likes: 112 &nbsp;&nbsp; Comments: 43</p>
+              </div>
+              <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Comment</a><a href="#" class="link">Share</a></div>
+            </div>
+            <div class="card demo-facebook-card">
+              <div class="card-header">
+                <div class="demo-facebook-avatar"><img src="shen_yue.jpg" width="34" height="34"/></div>
+                <div class="demo-facebook-name">Jessica Camus</div>
+                <div class="demo-facebook-date">Monday at 2:15 PM</div>
+              </div>
+              <div class="card-content card-content-padding">
+                <p>What a nice photo i took yesterday!</p><img src="https://preview.redd.it/dsu30dahi5g21.jpg?width=640&crop=smart&auto=webp&s=9c73b8b6d2785956b9b1ff8fa7dfdc1a45fe6f96" width="100%"/>
+                <p class="likes">Likes: 112 &nbsp;&nbsp; Comments: 43</p>
+              </div>
+              <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Comment</a><a href="#" class="link">Share</a></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
